@@ -1,0 +1,37 @@
+body {
+    background-color: #1D232A;
+}
+
+
+.cabecalho-principal {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 8px 16px ;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 16%);
+    margin: 0;
+   
+
+}
+
+.botao-menu {
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+.imagem-cadastro {
+    background-color: black;
+   height: 150px;
+   width: 150px;
+   
+}
+
+.botao-notificacao {
+    cursor: pointer;
+}
+
