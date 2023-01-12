@@ -1,12 +1,15 @@
 body {
-    background-image: linear-gradient(45deg, black, purple);
+    background-image: linear-gradient(90deg, cyan, yellow);
 }
 
 .cabecalho {
     font-size: 50px;
     font-weight: bold;
-    color: aliceblue;
+    color: #000000;
     margin: 20px;
+    border-bottom: 2px solid black;
+    width:18%;
+   
 
 
 }
@@ -21,31 +24,33 @@ body {
     padding: 15px;
     width: 50%;
     border-radius: 10px;
-    background-image: linear-gradient(45deg, black, purple);
-    color: aliceblue;
-    outline: none;
+    color: #000000 ;
     font-size: 15px;
+    outline: none;
 }
 
 .input:hover {
     border-color: aliceblue;
     font-size: 20px;
+
 }
 
 textarea {
     width: 50%;
-    background-image: linear-gradient(45deg, black, purple);
     padding: 15px;
-    color: aliceblue;
-    font-size: 15px;
+    color: #000000 ;
+    font-size: 25px;
+    border-radius: 10px;
 }
 
 .botao-enviar {
-    background-image: linear-gradient(45deg, black, purple);
+    background-color: rgb(7, 248, 248);
     width: 52.5%;
     padding: 15px;
     font-size: 25px;
     cursor: pointer;
     border-radius: 10px;
-    color: aliceblue;
+    color:#ffffff
 }
+
+/*css tela de login*/
